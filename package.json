@@ -7,7 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "astro build && serve dist"
+    "test": "astro build && serve dist",
+    "deploy": "astro build && node deploy.js"
   },
   "dependencies": {
     "@astrojs/vue": "^5.0.9",
